@@ -6,18 +6,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace FileManipulation
+namespace MVVMsetup
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
         [STAThread]
         public static void Main()
         {
-            Console.WriteLine("Main method.");
-
             var app = new App();
             app.InitializeComponent();
             app.Run();
